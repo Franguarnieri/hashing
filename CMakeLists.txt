@@ -3,4 +3,6 @@ project(hashing C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(hashing main.c)
+add_executable(hashing main.c
+        hash.c
+        hash.h)
